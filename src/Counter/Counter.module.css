@@ -1,0 +1,54 @@
+.counter {
+  width: 300px;
+  height: 330px;
+  background-color: rgb(236, 244, 232);
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+}
+
+.value {
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c757d;
+  font-size: 120px;
+}
+
+.buttonWrapper {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonPlus {
+  height: 100%;
+  width: 33.33333333%;
+  color: #fff;
+  background: #28a745;
+  border: none;
+  font-size: 75px;
+  cursor: pointer;
+}
+
+.buttonReset {
+  height: 100%;
+  width: 33.33%;
+  color: #212529;
+  background: url(./img/reload.svg) no-repeat center center, #ffc107;
+  background-size: 35px;
+  border: none;
+  font-size: 75px;
+  cursor: pointer;
+}
+
+.buttonMinus {
+  height: 100%;
+  width: 33.33%;
+  color: #fff;
+  background: #dc3545;
+  border: none;
+  font-size: 75px;
+  cursor: pointer;
+}
